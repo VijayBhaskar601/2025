@@ -3,3 +3,16 @@ git add * or git add (file name)
 git commit -m"commit 1"
 git push origin main
 git status
+git log
+git log --oneline (with file name)
+git --version
+mkdir
+pwd
+ls or ll
+code .
+ls -ltr or ls -lrth
+git config --global user.name "vijay bhaskar"
+git config --global user.email "vijaybhaskar601@gmail.com"
+cat ~/.gitconfig
+git diff
+git diff --color-words
