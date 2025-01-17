@@ -1,0 +1,5 @@
+git clone
+git add * or git add (file name)
+git commit -m"commit 1"
+git push origin main
+git status
