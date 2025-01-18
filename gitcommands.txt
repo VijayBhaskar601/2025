@@ -22,5 +22,11 @@ git fetc origin main
 git merge
 git pull origin main
 git branch
+    This command is used to create branch.
+    Eg:- git branch feature-1
 git checkout
+    This command used to switch to branches. 
+    Eg:- git checkout feature-1
+         git checkout main
 git branch -d feature-1
+    this commit is used to deleat branch, becore delete feature branch you should switch to main branch or another branch
