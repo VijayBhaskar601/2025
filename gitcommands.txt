@@ -4,21 +4,28 @@ git commit -m"commit 1"
 git push origin main
 git status
 git log
+    This command is used to check the history
 git log --oneline (with file name)
 git --version
+    to check the corrent git version
 mkdir
+    This command is used to create folder
 pwd
+    This command is used to chack the path
 ls or ll
+    This command is used to folders
 code .
+    This command used to open VS code
 ls -ltr or ls -lrth
 git config --global user.name "vijay bhaskar"
 git config --global user.email "vijaybhaskar601@gmail.com"
 cat ~/.gitconfig
+    This command is used to configer details
 git diff
 git diff --color-words
 git diff --color-words main feature-1
     This command is used to compare main branch and feature branch
-git fetc origin main
+git fetch origin main
 git merge
 git pull origin main
 git branch
@@ -30,3 +37,5 @@ git checkout
          git checkout main
 git branch -d feature-1
     This commit is used to deleat branch, becore delete feature branch you should switch to main branch or another branch
+git branch -a
+    This command used to check the list of branches are created (or) abailable branches
