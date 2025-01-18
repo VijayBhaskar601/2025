@@ -16,3 +16,11 @@ git config --global user.email "vijaybhaskar601@gmail.com"
 cat ~/.gitconfig
 git diff
 git diff --color-words
+git diff --color-words main feature-1
+    This command is used to compare main branch and feature branch
+git fetc origin main
+git merge
+git pull origin main
+git branch
+git checkout
+git branch -d feature-1
