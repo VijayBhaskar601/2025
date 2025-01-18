@@ -29,4 +29,4 @@ git checkout
     Eg:- git checkout feature-1
          git checkout main
 git branch -d feature-1
-    this commit is used to deleat branch, becore delete feature branch you should switch to main branch or another branch
+    This commit is used to deleat branch, becore delete feature branch you should switch to main branch or another branch
