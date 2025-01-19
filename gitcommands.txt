@@ -44,4 +44,4 @@ git restore --staged
     This command is used to unstae the file with is staged
 git diff --staged --color-words
     This command is used to find the difference between local changes
-git rest
+git reset
