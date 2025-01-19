@@ -39,3 +39,7 @@ git branch -d feature-1
     This commit is used to deleat branch, becore delete feature branch you should switch to main branch or another branch
 git branch -a
     This command used to check the list of branches are created (or) abailable branches
+git restore
+git restore --staged
+git diff --staged --color-words
+git rest
