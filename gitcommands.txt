@@ -1,6 +1,8 @@
 git clone
 git add * or git add (file name)
 git commit -m"commit 1"
+git commit -am "<commit message>"
+    this command us used to add and commit same time
 git push origin main
 git status
 git log
@@ -35,6 +37,8 @@ git checkout
     This command used to switch to branches. 
     Eg:- git checkout feature-1
          git checkout main
+git checkout -b <branch name>
+    this command used to create a branch and swith to new branch
 git branch -d feature-1
     This commit is used to deleat branch, becore delete feature branch you should switch to main branch or another branch
 git branch -a
