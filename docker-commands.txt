@@ -1,9 +1,19 @@
+server commands
+
 yum install docker -y   to install docker 
 systemctl start docker  to start docker
 systemctl status docker  to check the status 
+docker --version
+
+
+Basic docker commands
 
 docker ps  to check the docker running containers
 docker ps -a  to check all docker containers
 docker images to check dckeer images
+docker pull <image name>  to download the image from remort to lockel
 
+docker build -t <image name> . to build a docker image
+docker run -itd --name <container name> -p 8080:80 <image name>  to run a container with ports
+docker exec -it <container name> bash  to go in to the docker container
 
