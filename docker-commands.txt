@@ -1,0 +1,9 @@
+yum install docker -y   to install docker 
+systemctl start docker  to start docker
+systemctl status docker  to check the status 
+
+docker ps  to check the docker running containers
+docker ps -a  to check all docker containers
+docker images to check dckeer images
+
+
