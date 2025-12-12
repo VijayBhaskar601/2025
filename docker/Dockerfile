@@ -1,0 +1,13 @@
+FROM ubuntu:latest
+
+RUN apt-get update -y
+
+RUN apt-get install git -y
+
+WORKDIR ./app
+
+COPY ./app
+
+CMD ["bash"]
+
+
